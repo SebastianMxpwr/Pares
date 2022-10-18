@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    color:white;
+    background-color: rgb(32, 54, 79);
+}
+main{
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex
+}
+
+.section1{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
