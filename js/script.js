@@ -11,6 +11,7 @@ console.log(pares);
 //funcion principal
 function destapar(id){
     tarjetasDestapas ++
+    console.log(tarjetasDestapas);
     if(tarjetasDestapas == 1){
         tarjeta1 = document.getElementById(id)
         primerResultado = pares[id]
@@ -21,6 +22,14 @@ function destapar(id){
         segundoResultado = pares[id]
         tarjeta2.innerHTML = segundoResultado
         tarjeta2.disabled = true
+        
+        setTimeout(()=>{
+            tarjetasDestapas = 0
+            tarjeta1.innerHTML = null
+            tarjeta2.innerHTML = null
+            tarjeta1.disabled = false
+            tarjeta2.disabled = false
+        },1000)
     }
     
 }
