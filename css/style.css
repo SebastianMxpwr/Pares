@@ -17,11 +17,12 @@ main{
 h1{
     text-align: center;
 }
-button{
+.button{
     height: 100px;
     width: 100px;
     font-size: 40px;
     font-weight: bold;
+    background: rgb(111, 111, 194);
 
 }
 
